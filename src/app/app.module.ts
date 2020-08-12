@@ -11,12 +11,19 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { NavComponent } from './nav/nav.component';
 import { IAmAComponent } from './i-am-a/i-am-a.component';
+import { ProjectsComponent } from './projects/projects.component';
+import {AppRoutingModule} from './app-routing.module';
+import { HomeComponent } from './home/home.component';
+import { ProjectItemComponent } from './projects/project-item/project-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     IAmAComponent,
+    ProjectsComponent,
+    HomeComponent,
+    ProjectItemComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +33,8 @@ import { IAmAComponent } from './i-am-a/i-am-a.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

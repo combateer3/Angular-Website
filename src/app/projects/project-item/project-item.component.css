@@ -1,0 +1,34 @@
+.card {
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  border-radius: 40px;
+  box-shadow: 13px 13px 20px #CBCED185, -13px -13px 20px #FFFFFF90;
+}
+
+.card img {
+  width: 100%;
+  height: 30%;
+}
+
+.card .title {
+  margin: 10px 30px;
+  font-size: 24px;
+}
+
+.card .description {
+  margin: 10px 20px;
+}
+
+.btn-src {
+  color: white;
+  text-decoration: none;
+  margin: auto auto 30px 30px;
+  background-color: coral;
+  padding: 10px 60px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 15px #CBCED185;
+  font-weight: bold;
+}

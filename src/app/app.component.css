@@ -1,58 +1,6 @@
-.main-container {
-  background-image: url("../assets/images/main-bg.png");
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
-
 app-nav {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-}
-
-app-i-am-a {
-  margin-left: 10px;
-}
-
-.intro {
-  display: block;
-  margin-left: 100px;
-}
-
-.header, .header * {
-  color: white;
-  font-size: 64px;
-}
-
-.header {
-  display: flex;
-}
-
-.last-name {
-  border: 3px solid coral;
-  padding: 0 15px;
-  margin-left: 10px;
-}
-
-.subtitle {
-  font-size: 28px;
-  color: antiquewhite;
-  display: flex;
-  margin-top: 20px;
-  align-items: center;
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    display: block;
-  }
-
-  .last-name {
-    width: fit-content;
-  }
 }

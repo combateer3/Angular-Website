@@ -32,7 +32,7 @@ export class IAmAComponent implements OnInit {
       animationState: 'out'
     },
     {
-      value: 'android developer',
+      value: 'Android developer',
       animationState: 'out'
     }
     ];

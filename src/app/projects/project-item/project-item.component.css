@@ -1,11 +1,11 @@
 .card {
-  background-color: inherit;
+  background-color: #ECF0F3;
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 600px;
+  height: 500px;
   border-radius: 40px;
-  box-shadow: 13px 13px 20px #CBCED185, -13px -13px 20px #FFFFFF90;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
 }
 
 .card img {

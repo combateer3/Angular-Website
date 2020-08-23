@@ -2,10 +2,10 @@
   background-image: url("../../assets/images/main-bg.png");
   width: 100%;
   height: 100%;
-  overflow: hidden;
   display: flex;
-  align-items: center;
-  justify-content: left;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
 }
 
 app-i-am-a {
@@ -13,8 +13,9 @@ app-i-am-a {
 }
 
 .intro {
-  display: block;
   margin-left: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header, .header * {
@@ -51,5 +52,9 @@ app-i-am-a {
 
   .last-name {
     width: fit-content;
+  }
+
+  .subtitle {
+    display: block;
   }
 }

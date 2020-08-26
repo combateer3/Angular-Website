@@ -1,34 +1,58 @@
 .card {
   background-color: #ECF0F3;
+  width: 400px;
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 500px;
-  border-radius: 40px;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
+  padding: 10px;
 }
 
 .card img {
-  width: 100%;
-  height: 30%;
+  max-width: 400px;
 }
 
 .card .title {
-  margin: 10px 30px;
+  margin: 10px 20px;
   font-size: 24px;
 }
 
 .card .description {
   margin: 10px 20px;
+  color: #7f8c8d;
 }
 
-.btn-src {
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.action-row {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
   color: white;
   text-decoration: none;
-  margin: auto auto 30px 30px;
-  background-color: coral;
-  padding: 10px 60px;
+  padding: 10px;
   border-radius: 25px;
   box-shadow: 10px 10px 15px #CBCED185;
   font-weight: bold;
+}
+
+.btn-src {
+  background-color: coral;
+}
+
+.btn-src:hover {
+  content: 'Source Code';
+}
+
+.btn-goto {
+  background-color: #3a345f;
 }

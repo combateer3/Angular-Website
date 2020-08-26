@@ -1,6 +1,14 @@
 <div class="card">
-  <div class="title">{{ title }}</div>
   <img src="assets/images/{{ imageName }}" alt="">
-  <p class="description">{{ description }}</p>
-  <a href="{{ sourceCodeLink }}" class="btn-src">Source Code</a>
+  <div class="content">
+    <div class="info">
+      <div class="title">{{ title }}</div>
+      <p class="description">{{ description }}</p>
+    </div>
+
+    <div class="action-row">
+      <a href="{{ sourceCodeLink }}" class="btn btn-src"><mat-icon>code</mat-icon></a>
+      <a href="" class="btn btn-goto"><mat-icon>arrow_forward</mat-icon></a>
+    </div>
+  </div>
 </div>

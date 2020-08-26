@@ -1,5 +1,5 @@
 <nav>
-  <ul>
+  <ul [ngStyle]="{'background-color': backgroundColor}">
     <li><a routerLink="/" routerLinkActive="selected" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
     <li><a>Skills</a></li>
     <li><a routerLink="/projects" routerLinkActive="selected">Projects</a></li>

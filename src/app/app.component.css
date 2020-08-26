@@ -1,6 +1,25 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/images/main-bg.png");
+  background-attachment: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* higher z-index causes other content to be scrolled behind the navbar */
 app-nav {
   position: fixed;
-  left: 0;
-  top: 0;
   width: 100%;
+  height: 100px;
+  z-index: 2;
+}
+
+/* ng deep makes this a global style */
+::ng-deep router-outlet + * {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  flex-grow: 1;
+  z-index: 1;
 }

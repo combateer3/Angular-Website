@@ -16,6 +16,7 @@ import {AppRoutingModule} from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ProjectItemComponent } from './projects/project-item/project-item.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import { BackgroundSelectorComponent } from './background-selector/background-selector.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     HomeComponent,
     ProjectItemComponent,
     ContactMeComponent,
+    BackgroundSelectorComponent,
   ],
   imports: [
     BrowserModule,

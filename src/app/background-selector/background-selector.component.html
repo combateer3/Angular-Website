@@ -1,0 +1,10 @@
+<h1>Choose a background!</h1>
+<!--  If current element is the selected one, will have a special class to denote it -->
+<div class="backgrounds">
+  <img
+    *ngFor="let bg of backgrounds; let i = index"
+    src="assets/backgrounds/{{ bg.thumbnailFilename }}"
+    [ngClass]="{'selected': bg === current}"
+    (click)="changeBackground(i)"
+    alt="">
+</div>

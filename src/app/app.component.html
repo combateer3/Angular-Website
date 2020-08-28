@@ -1,4 +1,5 @@
-<div class="app">
+<div class="app" [ngStyle]="{backgroundImage: isVideoBg ? 'none' : 'url(\' ' + backgroundPath + '\')'}">
+  <video *ngIf="isVideoBg" [src]="backgroundPath" autoplay muted loop></video>
   <app-nav></app-nav>
   <router-outlet></router-outlet>
 </div>

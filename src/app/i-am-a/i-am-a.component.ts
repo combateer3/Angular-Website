@@ -47,7 +47,7 @@ export class IAmAComponent implements OnInit {
         this.current = 0;
       }
       this.items[this.current].animationState = 'in';
-    }).bind(this), 4000);
+    }).bind(this), 3000);
   }
 
 }
